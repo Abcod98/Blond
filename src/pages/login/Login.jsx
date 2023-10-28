@@ -1,16 +1,28 @@
-import "./login.scss"
-import { Link } from "react-router-dom"
+import { useContext } from "react";
+import "./login.scss";
+import { Link } from "react-router-dom";
+//import { AuthContext } from "../../context/authContext";
 
 const Login = () => {
+
+  //const { login } = useContext(AuthContext)
+
+  const handleLogin = () => {
+    login()
+  }
+
   return (
     <div className="login">
       <div className="card">
         <div className="left">
           <h1>Blond</h1>
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa dolores optio minima at mollitia, soluta unde quis nobis id eum inventore odio accusamus qui, aspernatur explicabo itaque debitis! Quia, pariatur.</p>
-          <span>
-          ¿No tienes una cuenta?
-          </span>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa
+            dolores optio minima at mollitia, soluta unde quis nobis id eum
+            inventore odio accusamus qui, aspernatur explicabo itaque debitis!
+            Quia, pariatur.
+          </p>
+          <span>¿No tienes una cuenta?</span>
           <Link to="/register">
             <button>Registrar</button>
           </Link>
@@ -25,7 +37,7 @@ const Login = () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Login
+export default Login;
