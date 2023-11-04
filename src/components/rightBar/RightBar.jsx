@@ -9,7 +9,7 @@ const RightBar = () => {
           <div className="user">
             <div className="userInfo">
               <img src="https://images.pexels.com/photos/7810405/pexels-photo-7810405.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" />
-              <span>Abraham</span>
+              <span>Luciana</span>
             </div>
             <div className="buttons">
               <button>Seguir</button>
@@ -19,7 +19,7 @@ const RightBar = () => {
           <div className="user">
             <div className="userInfo">
               <img src="https://images.pexels.com/photos/7810405/pexels-photo-7810405.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" />
-              <span>Abraham</span>
+              <span>Santos</span>
             </div>
             <div className="buttons">
               <button>Seguir</button>
@@ -33,7 +33,7 @@ const RightBar = () => {
             <div className="userInfo">
               <img src="https://images.pexels.com/photos/7810405/pexels-photo-7810405.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" />
               <p>
-                <span>Abraham</span> Cambio su foto de portada
+                <span>David</span> Cambio su foto de portada
               </p>
             </div>
             <span>1 min atras</span>
@@ -42,7 +42,7 @@ const RightBar = () => {
             <div className="userInfo">
               <img src="https://images.pexels.com/photos/7810405/pexels-photo-7810405.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" />
               <p>
-                <span>Abraham</span> Cambio su foto de portada
+                <span>Santos</span> Cambio su foto de portada
               </p>
             </div>
             <span>1 min atras</span>
@@ -51,7 +51,7 @@ const RightBar = () => {
             <div className="userInfo">
               <img src="https://images.pexels.com/photos/7810405/pexels-photo-7810405.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" />
               <p>
-                <span>Abraham</span> Cambio su foto de portada
+                <span>Luciana</span> Cambio su foto de portada
               </p>
             </div>
             <span>1 min atras</span>
@@ -67,7 +67,7 @@ const RightBar = () => {
           </div>
         </div>
         <div className="item">
-          <span>Amigos Conectados</span>
+          <span>Usuarios Conectados</span>
           <div className="user">
             <div className="userInfo">
               <img src="https://images.pexels.com/photos/7810405/pexels-photo-7810405.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" />
